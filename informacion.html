@@ -42,7 +42,7 @@
         <h3>Instrucciones para llegar a la finca</h2>
         <p>
             <strong>UBICACIÓN GOOGLE MAPS:</strong> 
-            <a href="https://maps.app.goo.gl/VxpcQ2HdYCE8kfYaA" target="_blank">https://maps.app.goo.gl/VxpcQ2HdYCE8kfYaA</a>
+            <a href="https://maps.app.goo.gl/VxpcQ2HdYCE8kfYaA" target="_blank">Ver ubicación en Google Maps 📍</a>
         </p>
         <p>
             También se puede buscar directamente en Google Maps como: 
@@ -94,6 +94,17 @@
         <img src="foto2.jpeg" alt="Descripción de la imagen 2">
         <img src="foto3.jpeg" alt="Descripción de la imagen 3">
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Detectar si el usuario está en un dispositivo móvil
+            if (/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+                let viewport = document.querySelector("meta[name=viewport]");
+                viewport.setAttribute("content", "width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0");
+            }
+        });
+    </script>
+    
 
 </body>
 </html>

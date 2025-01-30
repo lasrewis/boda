@@ -161,29 +161,6 @@ header h1 {
 }
 
 
-/* Gallery */
-.image-gallery {
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-.image-gallery img {
-    max-width: 600px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.image-gallery img:hover {
-    transform: scale(1.05);
-    cursor: pointer;
-}
-
 /* Responsive styles for tablets and smaller screens */
 @media (max-width: 768px) {
     header {
