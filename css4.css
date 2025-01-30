@@ -172,6 +172,13 @@ header h1 {
         height: 120px;
     }
 
+    html, body {
+        overflow-x: hidden; /* Bloquea el desplazamiento lateral */
+        width: 100vw; /* Fija el ancho al tamaño del viewport */
+        max-width: 100%; /* Evita que se expanda más allá del viewport */
+        position: relative; /* Previene problemas de desplazamiento */
+    }
+
     .container {
         width: 95%;
         margin: 20px auto;

@@ -62,5 +62,14 @@
             });
         });
     </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Detectar si el usuario está en un dispositivo móvil
+            if (/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+                let viewport = document.querySelector("meta[name=viewport]");
+                viewport.setAttribute("content", "width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0");
+            }
+        });
+    </script>
 </body>
 </html>
