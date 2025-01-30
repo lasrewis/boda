@@ -47,6 +47,12 @@ header h1 {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    display: inline-block;  /* Hace que el enlace se comporte como un bloque ajustable */
+    max-width: 100%;       /* No permite que el enlace se extienda más allá del contenedor */
+    overflow-wrap: break-word; /* Rompe la palabra si es demasiado larga */
+    word-wrap: break-word;
+    white-space: normal;    /* Permite que el texto se ajuste automáticamente */
+    text-align: center;     /* Centra el texto dentro del enlace */
 }
 
 .instructions-container p {
@@ -183,6 +189,12 @@ header h1 {
         margin-left: auto;
         margin-right: auto;
         box-sizing: border-box;
+        display: inline-block;  /* Hace que el enlace se comporte como un bloque ajustable */
+        max-width: 100%;       /* No permite que el enlace se extienda más allá del contenedor */
+        overflow-wrap: break-word; /* Rompe la palabra si es demasiado larga */
+        word-wrap: break-word;
+        white-space: normal;    /* Permite que el texto se ajuste automáticamente */
+        text-align: center;     /* Centra el texto dentro del enlace */
     }
 
     .image-gallery img {
@@ -215,6 +227,12 @@ header h1 {
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+        display: inline-block;  /* Hace que el enlace se comporte como un bloque ajustable */
+        max-width: 100%;       /* No permite que el enlace se extienda más allá del contenedor */
+        overflow-wrap: break-word; /* Rompe la palabra si es demasiado larga */
+        word-wrap: break-word;
+        white-space: normal;    /* Permite que el texto se ajuste automáticamente */
+        text-align: center;     /* Centra el texto dentro del enlace */
     }
 
     .image-gallery img {
